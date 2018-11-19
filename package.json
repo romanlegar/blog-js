@@ -1,0 +1,30 @@
+{
+  "name": "lesson_5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --open",
+    "nodemon": "nodemon ./dev/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/itea_javascript/lesson_7.git"
+  },
+  "author": "Andrew Datsenko",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/itea_javascript/lesson_7#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "description": ""
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Page</title>
+  <link rel="stylesheet" href="/public/css/normalize.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="/public/css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class='fonConstructor'>
+      <div class='constructor card  '>
+        <form class="formEditor card-body">
+          <input class="btn btn-info" name="exit" type='button' value="Выйти"/>
+          <input name='url' class='url' type='text' placeholder='Вставте ссылку на картинку'/>
+          <input class='save btn btn-info' type='button' value='Сохранить' name='save'/>
+        </form>
+
+        <div class='testImage'></div>
+      </div>
+    </div>
+    <div class='avatar'>
+      <h1 class='avatarLogin size'><%= login %> </h1>
+    </div>
+    <div class='header size'>
+
+    </div>
+
+    <div class='postList'>
+      <form class='formGener'>
+        <input type='textarea' placeholder="Напишите пост" name="message"/>
+        <input class='sendPhoto' id='sendPhoto' type='submit' value='' />
+        <input class='createImg' name='createImg' type='text' placeholder='Вставте сылку на картинку'/>
+        <input class='btn btn-info' id='send' name='send' type='submit' value='Oтправить'/>
+      </form>
+      </form>
+      <ul class='list'>
+
+      </ul>
+
+    </div>
+    <a class='exit'></a>
+  </div>
+
+  <script src="/public/js/bundle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+li {
+  list-style: none;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: scroll;
+
+  background-image: url(http://xn--80aamnfk9bml1al.xn--p1ai/sites/default/files/products/9010.gif.jpg);
+  background-size: cover;
+}
+  .wrapper .avatar{
+    cursor: pointer;
+    height: 180px;
+    width: 180px;
+    margin-left: 90px;
+    margin-top: 80px;
+    position: absolute;
+    z-index: 100;
+    border: 6px solid #D2B48C;
+    border-radius: 50%;
+    background-color: #D2B48C;
+  }
+  .wrapper .header {
+    width: 100%;
+    height: 340px;
+    border: 2px solid #FAFAD2;
+    cursor: pointer;
+    background-color: #D2B48C;
+  }
+.wrapper .avatar {
+  border: 6px solid white;
+  background-size: contain;
+}
+.wrapper .header:hover {
+  opacity: 0.7;
+}
+.wrapper .avatar:hover{
+  opacity: 0.7;
+}
+  .wrapper .avatar .avatarLogin{
+    margin-top: 200px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: black 1px 1px 0, black -1px -1px 0,
+                black -1px 1px 0, black 1px -1px 0;
+  }
+.wrapper .postList{
+  width: 60%;
+  height: inherit;
+  margin-left: 30%;
+  margin-top: 70px;
+}
+  .wrapper .postList .formGener {
+    margin-left: 4%;
+    padding-top:50px;
+  }
+  .wrapper .postList input {
+    display: block;
+    margin-bottom: 2px;
+  }
+  .wrapper .postList .createImg{
+    display: none;
+    height: 20px;
+  }
+  .wrapper .postList .sendPhoto{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-image: url(http://s1.iconbird.com/ico/2013/9/450/w256h2561380453915Pictures256x25632.png);
+  }
+  //
+  .wrapper .postList .consoleComment {
+    width: 50%;
+    margin-top: 10px;
+  }
+.wrapper .fonConstructor {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(200,200,200,0.8);
+  display: none;
+  justify-content: center;
+}
+
+.wrapper .fonConstructor .constructor {
+  margin-top: 170px;
+  width: 600px;
+  height: 360px;
+  border: 1px solid;
+  margin-top: 170px;
+}
+    .wrapper .fonConstructor .constructor input {
+      margin-left: 22%;
+      margin-top: 4%;
+      width: 280px;
+      height: 60px;
+      border: 2px solid black;
+    }
+
+.wrapper .exit {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  background-image: url(https://png2.kisspng.com/20180406/kee/kisspng-computer-icons-logo-symbol-arrow-login-button-5ac7ac46008ac7.8228988115230352060022.png);
+  background-size: contain;
+}
+.size {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.wrapper input {
+  width: 50%;
+  height: 60px;
+}
+.wrapper .scale {
+  width: 50%;
+  height: 30px;
+}
+.wrapper .consoleComment {
+  widows: 40px;
+  display: block;
+}
+.wrapper .element {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+}
+.wrapper .postCounter {
+  background-image: url(https://banner2.kisspng.com/20180406/iee/kisspng-heart-computer-icons-clip-art-white-heart-5ac71d80014609.4394648815229986560052.jpg);
+  background-size: cover;
+  background-color: white;
+  border: 0px;
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+.wrapper .delet {
+
+}
+.comment {
+  position: relative;
+  bottom: 30px;
+  left: 50px;
+  width: 180px;
+}
+
+
+button {
+  width: 60%;
+}
+.commentInput {
+  margin: 10px 0 10px 0;
+  width: 100px;
+}
+.header-h1 h1 {
+  text-align: left;
+
+  padding: 0 0 6px 10px;
+  border-left: 10px solid #A6D8CB;
+  border-bottom: 2px solid #A6D8CB;
+}
+.listComment {
+  margin-left: 30px;
+  margin-top: 15px;
+
+}
+.listComment .header-h1 {
+  position: relative;
+  margin-bottom: .5rem;
+}
+
+.listComment .header-h1 h1 {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  margin-bottom: 0;
+  padding: 0.5rem 1rem;
+  border-bottom: .125rem solid #a5d6a7;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #4caf50;
+}
+
+.listComment .header-h1 h1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1.25rem;
+  transform: translateX(-1.25rem);
+  border-top: 1.25rem solid #a5d6a7;
+  border-left: 1.25rem solid transparent;
+  border-right: 1.25rem solid transparent;
+}
+
+.listComment .header-h1 h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1.125rem;
+  transform: translateX(-1.25rem);
+  border-top: 1.25rem solid #fff;
+  border-left: 1.25rem solid transparent;
+  border-right: 1.25rem solid transparent;
+}
